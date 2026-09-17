@@ -1,0 +1,94 @@
+# Guides SOTECHDI — documentation publique des licences vendues.
+#
+# Site statique : aucun serveur à maintenir, aucun hit consommé sur
+# l'hébergement de sotechdi.com, et des pages légères qui s'ouvrent vite en
+# 3G — ce qui compte davantage que l'esthétique pour un client à Ouagadougou
+# qui cherche à activer sa licence depuis son téléphone.
+#
+#   py -m pip install -r requirements.txt
+#   mkdocs serve     # aperçu local sur http://127.0.0.1:8000
+#   mkdocs build     # écrit le site dans site/
+
+site_name: Guides SOTECHDI
+site_description: >-
+  Guides d'activation et d'installation des licences vendues par SOTECHDI —
+  Windows, Microsoft Office, Kaspersky.
+site_url: https://docs.sotechdi.com/
+site_author: SOTECHDI
+copyright: SOTECHDI — Ouagadougou, Burkina Faso
+
+repo_url: https://github.com/SOTECHDI/docs
+edit_uri: ""
+
+theme:
+  name: material
+  language: fr
+  # Noir et ambre : les couleurs du logo SOTECHDI.
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  font:
+    text: Public Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/shield-check
+  features:
+    - navigation.sections      # les rubriques restent dépliées
+    - navigation.top
+    - navigation.instant       # navigation sans rechargement complet
+    - navigation.tracking
+    - toc.follow               # le sommaire de droite suit la lecture
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra:
+  social:
+    - icon: material/web
+      link: https://sotechdi.com
+      name: Boutique SOTECHDI
+    - icon: material/whatsapp
+      link: https://wa.me/22646838357
+      name: Assistance WhatsApp
+  generator: false
+
+markdown_extensions:
+  - admonition               # les encadrés colorés (!!! note, !!! warning)
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details         # encadrés repliables, pour les FAQ
+  - pymdownx.superfences
+  - pymdownx.keys            # rendu des touches : ++ctrl+alt+suppr++
+  - pymdownx.tabbed:         # onglets : « Windows 11 » / « Windows 10 »
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      title: Sur cette page
+
+plugins:
+  - search:
+      lang: fr
+
+nav:
+  - Accueil: index.md
+  - Sécurité:
+      - Kaspersky Plus — activation: securite/kaspersky-plus.md
+  - Windows & Serveurs:
+      - Windows 10/11 Professionnel — activation: windows/windows-10-11-pro.md

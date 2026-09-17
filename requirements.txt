@@ -1,0 +1,2 @@
+# Version figee : le site doit se reconstruire a l'identique dans six mois.
+mkdocs-material==9.7.7
