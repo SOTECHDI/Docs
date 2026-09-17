@@ -10,7 +10,7 @@ Chaque page vous mène de la clé reçue par courriel au produit activé, étape
 
     ---
 
-    Installer et activer votre antivirus, rattacher la licence à un compte
+    Installer et activer votre antivirus, et rattacher la licence à un compte
     pour ne jamais la perdre.
 
     [:octicons-arrow-right-24: Guide d'activation](securite/kaspersky-plus.md)
@@ -24,7 +24,57 @@ Chaque page vous mène de la clé reçue par courriel au produit activé, étape
 
     [:octicons-arrow-right-24: Guide d'activation](windows/windows-10-11-pro.md)
 
+-   :material-microsoft-office:{ .lg .middle } **Office Professionnel Plus**
+
+    ---
+
+    Versions 2016, 2019, 2021 et 2024. Achat unique, licence à vie.
+
+    [:octicons-arrow-right-24: Guide d'activation](microsoft/office-professionnel-plus.md)
+
+-   :material-cloud-check:{ .lg .middle } **Microsoft 365**
+
+    ---
+
+    Personnel et Famille. Abonnement annuel, plusieurs appareils, 1 To de
+    stockage par personne.
+
+    [:octicons-arrow-right-24: Guide d'activation](microsoft/microsoft-365.md)
+
+-   :material-chart-gantt:{ .lg .middle } **Project Professionnel 2021**
+
+    ---
+
+    Gestion de projet et diagrammes de Gantt. Windows uniquement.
+
+    [:octicons-arrow-right-24: Guide d'activation](microsoft/project-2021.md)
+
+-   :material-server:{ .lg .middle } **Windows Server 2022 Standard**
+
+    ---
+
+    Activation par interface ou en ligne de commande, y compris sans accès
+    internet. Pour administrateurs.
+
+    [:octicons-arrow-right-24: Guide d'activation](windows/windows-server-2022.md)
+
 </div>
+
+## Office Professionnel Plus ou Microsoft 365 ?
+
+C'est la question qui revient le plus souvent.
+
+| | Office Professionnel Plus | Microsoft 365 |
+|---|---|---|
+| **Paiement** | Une seule fois | Chaque année |
+| **Durée** | À vie | Tant que l'abonnement court |
+| **Mises à jour de version** | Non — Office 2021 reste Office 2021 | Oui, incluses |
+| **Appareils** | 1 PC | Plusieurs, jusqu'à 6 personnes |
+| **Stockage en ligne** | Aucun | 1 To par personne |
+
+En bref : **Professionnel Plus** si vous voulez payer une fois et ne plus y
+penser. **Microsoft 365** si vous êtes plusieurs, ou si le stockage en ligne
+et les dernières versions comptent pour vous.
 
 ## Vous n'avez pas encore reçu votre clé ?
 

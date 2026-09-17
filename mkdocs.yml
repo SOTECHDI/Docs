@@ -89,6 +89,11 @@ plugins:
 nav:
   - Accueil: index.md
   - Sécurité:
-      - Kaspersky Plus — activation: securite/kaspersky-plus.md
+      - Kaspersky Plus: securite/kaspersky-plus.md
   - Windows & Serveurs:
-      - Windows 10/11 Professionnel — activation: windows/windows-10-11-pro.md
+      - Windows 10/11 Professionnel: windows/windows-10-11-pro.md
+      - Windows Server 2022 Standard: windows/windows-server-2022.md
+  - Microsoft Office:
+      - Office Professionnel Plus: microsoft/office-professionnel-plus.md
+      - Microsoft 365: microsoft/microsoft-365.md
+      - Project Professionnel 2021: microsoft/project-2021.md
